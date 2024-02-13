@@ -1,0 +1,173 @@
+
+
+.title_section{
+    margin-top: 20px;
+    height: 10vh;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-bottom: 10vh;
+}
+.title_section h1{
+    
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    /* margin: auto; */
+    font-family: Montserrat, sans-serif;
+    color: rgb(68, 136, 175);
+    margin-right: 50%;
+}
+
+.navbar{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar input{
+    width: 80%; 
+    font-size: 1.5rem; 
+    font-weight: 600;     
+} 
+
+
+.full_line_css{
+    background-color: rgba(219, 218, 218, 0.301);
+    width: 100%;
+    border-radius: 10px;
+    /* justify-content: space-between; */
+    
+    word-wrap:break-word;
+
+
+}
+
+
+.delbtn_css{
+    height: 40px;
+    width: 40px;
+background-color: transparent;
+    color: rgb(10, 10, 10);
+    border-radius: 3px;
+    
+    margin-left:2%;
+    position: relative;
+  
+    display: inline-block;
+
+   background-image: url(bin.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+  padding-left: 10px;
+  opacity: 0.9;
+    
+}
+
+
+
+
+.delbtn_css:hover{
+    
+    background-image: url(black_bin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+
+
+
+.checkbox{
+    height: 40px;
+    width: 40px;
+     /* border: 1px solid black; */
+margin-left: 42%;
+display: inline-block;
+
+background-image: url(tick.png);
+background-size: contain;
+background-repeat: no-repeat;
+opacity: 0.9;
+}
+.checkbox:hover{
+    
+    background-image: url(black_tick.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 1;
+    
+}
+
+.task{
+    margin-left: 20px;
+    word-wrap: break-word;
+    font-size: 25px;
+    color: black;
+    text-overflow: ellipsis;
+}
+
+.task2{
+    text-decoration: line-through;
+}
+
+@media (max-width :466px){
+
+
+    .title_section{
+        margin-top: 20px;
+        height: 150px;
+        width: 100%;
+    
+        /* border: 2px solid red; */
+        margin-bottom: 20px;
+    }
+    .title_section h1{
+        
+        /* text-align: center; */
+        font-size: 2.3rem;
+        font-weight: 600;
+        /* margin: auto; */
+        font-family: Montserrat, sans-serif;
+        color: rgb(68, 136, 175);
+        margin-right: 20%;
+    }
+
+    .navbar{
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .navbar input{
+        width: 65%; 
+        font-size: 1.5rem; 
+        font-weight: 600;     
+    } 
+
+    .task{
+        margin-left: 20px;
+        word-wrap: break-word;
+        font-size: 20px;
+        color: black;
+        text-overflow: ellipsis;
+    }
+
+    .checkbox{
+        height: 30px;
+        width: 30px;
+    }
+
+    
+.delbtn_css{
+    height: 30px;
+    width: 30px;
+    
+}
+
+
+
+}
